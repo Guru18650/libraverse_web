@@ -1,0 +1,30 @@
+{
+	"/": [
+		"src/routes/+layout.server.js",
+		"src/routes/+layout.server.js"
+	],
+	"/allbooks": [
+		"src/routes/allbooks/+page.server.js",
+		"src/routes/+layout.server.js"
+	],
+	"/book/[slug]": [
+		"src/routes/book/[slug]/+page.server.js",
+		"src/routes/+layout.server.js"
+	],
+	"/dashboard": [
+		"src/routes/dashboard/+page.server.js",
+		"src/routes/+layout.server.js"
+	],
+	"/login": [
+		"src/routes/login/+page.server.js",
+		"src/routes/+layout.server.js"
+	],
+	"/logout": [
+		"src/routes/logout/+page.server.js",
+		"src/routes/+layout.server.js"
+	],
+	"/register": [
+		"src/routes/register/+page.server.js",
+		"src/routes/+layout.server.js"
+	]
+}
