@@ -39,7 +39,10 @@ bower_components
 build/Release
 
 # Dependency directories
-node_modules/
+**/node_modules/*
+!**/node_modules/@material-tailwind/html/theme/base/
+
+
 jspm_packages/
 
 # Snowpack dependency directory (https://snowpack.dev/)
@@ -125,3 +128,4 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
